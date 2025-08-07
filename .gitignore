@@ -1,0 +1,30 @@
+# === Java ===
+*.class
+#*.jar        # Uncomment if you don't want to upload your external .jar files
+*.war
+*.ear
+
+# === VS Code ===
+.vscode/
+
+# === Logs ===
+*.log
+
+# === OS generated files ===
+.DS_Store
+Thumbs.db
+
+# === Build output ===
+bin/
+out/
+build/
+
+# === IntelliJ / Eclipse (if ever used) ===
+*.iml
+.idea/
+*.classpath
+*.project
+*.settings/
+
+# === Environment/Sensitive files ===
+#.env
